@@ -1,12 +1,16 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
-twitter_username:
-github_username:
-
+title: dario • Sécurité • Vie Privée
+email: contact@dario.com
+description: Comprendre - Agir. La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel.
+author: dario
+url: https://dario.site/
+baseurl:
+logo: "/img/chklst.png"
+twitter_username: darioS3C
+telephone_number: +1-514-572-0424
+gems:
+  - jekyll-sitemap
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 # Build settings
 markdown: kramdown

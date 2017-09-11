@@ -51,6 +51,12 @@ p {
     color: white;
 }
 
+.bg-more {
+    background-image: url('../img/more.jpg');
+    background-position: center;
+    color: white;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -284,6 +290,7 @@ header {
     }
 }
 
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
@@ -348,4 +355,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
