@@ -3,8 +3,8 @@ title: dario • Sécurité • Vie Privée
 email: contact@dario.com
 description: Comprendre - Agir. La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel.
 author: dario
-url: https://dario.site/
-baseurl:
+url: https://dario.site
+baseurl: ''
 logo: "/img/chklst.png"
 twitter_username: darioS3C
 telephone_number: +1-514-572-0424
