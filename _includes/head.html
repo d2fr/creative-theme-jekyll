@@ -7,6 +7,7 @@
 
     <title>dario • Sécurité • Vie Privée</title>
 
+    <link rel="canonical" href="{{ site.url }}">
     <link rel="apple-touch-icon" href="{{ site.url }}/img/chklst.png">
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico">
     <link rel="icon" href="{{ site.url }}/favicon.ico">
@@ -14,10 +15,7 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-    <!-- Custom Fonts
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    -->
+    <!-- Custom Fonts -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -34,4 +32,21 @@
     <![endif]-->
 
     <meta name="robots" content="index, follow">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{ site.twitter_username }}" />
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:creator" content="{{ site.author }}" />
+    <meta name="twitter:image" content="{{ site.url }}/img/chklst.png" />
+
+    <!-- Open Graph data -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image:secure_url" content="{{ site.url }}/img/chklst.png" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
 </head>
