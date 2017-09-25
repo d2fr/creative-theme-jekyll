@@ -8,6 +8,7 @@ logo: "/img/chklst.png"
 email: contact@dario.com
 twitter_username: darioS3C
 telephone_number: +1-514-572-0424
+copyright:
 gems:
   - jekyll-sitemap
 # exclude
