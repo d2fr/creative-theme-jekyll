@@ -1,14 +1,16 @@
 # Site settings
 title: dario • Sécurité • Vie Privée
-description: Comprendre - Agir. La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel.
+description: La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel. Comprendre - Agir.
 author: dario.com
 url: https://dario.site
+english_url: https://dario.com
 baseurl: ''
+resources_url: 'resources'
 logo: "/img/chklst.png"
-email: contact@dario.com
-twitter_username: darioS3C
-telephone_number: +1-514-572-0424
-copyright:
+email: contact@dario.site
+twitter_username:
+telephone_number:
+copyright: dario.site • Sécurité • Vie Privée
 gems:
   - jekyll-sitemap
 # exclude
