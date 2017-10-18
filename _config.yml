@@ -1,19 +1,20 @@
 # Site settings
-title: dario • Sécurité • Vie Privée
-description: La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel. Comprendre - Agir.
+title: dario.site • Sécurité • Vie Privée
+description: La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel. Protégez vos données et votre entreprise.
 author: dario.com
 url: https://dario.site
 english_url: https://dario.com
+french_url: https://dario.site
 baseurl: ''
 resources_url: 'resources'
 logo: "/img/chklst.png"
 email: contact@dario.site
-twitter_username:
+twitter_username: darioS3C
 telephone_number:
 copyright: dario.site • Sécurité • Vie Privée
-gems:
-  - jekyll-sitemap
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
+gems:
+  - jekyll-sitemap
 # Build settings
 markdown: kramdown
