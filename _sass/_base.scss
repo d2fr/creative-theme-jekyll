@@ -27,6 +27,15 @@ a {
     }
 }
 
+a.light {
+    @include transition-all;
+    color: rgba(white, .95);
+    &:hover,
+    &:focus {
+        color: darken(white, 15%);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -40,6 +49,12 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+.sp {
+   font-size: 12px;
+   line-height: 1.2;
+   margin-bottom: 10px;
 }
 
 .bg-primary {
@@ -58,6 +73,14 @@ p {
     color: white;
 }
 
+.bg-resources {
+    background-color: $theme-primary;
+    background-image: url('../img/resources.jpg');
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -68,6 +91,11 @@ section {
 
 aside {
     padding: 50px 0;
+}
+
+.contact-padding {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .no-padding {
