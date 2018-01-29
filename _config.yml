@@ -12,9 +12,7 @@ email: contact@dario.site
 twitter_username: darioS3C
 telephone_number:
 copyright: dario.site • Sécurité • Vie Privée
-# Google Analytics • To enable google analytics, uncomment below line with a valid Google Tracking ID
 google_tracking_id: UA-98131817-3
-# exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
   - jekyll-sitemap
