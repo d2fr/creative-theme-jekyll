@@ -2,41 +2,57 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+
     <!-- Theme Color for Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#5478c4">
-    <!-- solve canonical
-    <link rel="canonical" href="{{ site.url }}">  -->
+
     <link rel="apple-touch-icon" href="{{ site.url }}/img/chklst.png">
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico">
     <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Twitter Card data -->
+
+    <!-- remove SEO for testing of SEO gem
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ site.twitter_username }}" />
     <meta name="twitter:title" content="{{ site.title }}" />
     <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:creator" content="{{ site.author }}" />
     <meta name="twitter:image" content="{{ site.url }}/img/chklst.png" />
-    <!-- Open Graph data -->
+
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:image:secure_url" content="{{ site.url }}/img/chklst.png" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
+    -->
+
+    <!-- entry for Jekyll plugin to generate SEO -->
+    {% seo title=false %}
+    
 </head>
