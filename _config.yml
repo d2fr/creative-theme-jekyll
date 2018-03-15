@@ -3,8 +3,8 @@ title: dario.site • Sécurité • Vie Privée
 # copyright text in footer
 copyright: dario.site • Sécurité • Vie Privée
 # website logos, images & icons
-header-img: "img/header.jpg"
-logo: "/img/chklst.png"
+image: /img/chklst.png
+logo: /img/chklst.png
 description: La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel. Protégez vos données et votre entreprise. dario.site
 url: https://dario.site
 # urls
@@ -20,6 +20,16 @@ email: contact@dario.site
 email_privacy:
 # contact telephone number
 telephone_number:
+# Social accounts
+github_username:
+twitter_username: darioS3C
+twitter:
+  username: darioS3C
+facebook_username:
+facebook:
+ app_id:
+ publisher:
+ admins:
 # search tracking id for dario.site
 google_tracking_id: UA-98131817-3
 webmaster_verifications:
@@ -28,16 +38,6 @@ webmaster_verifications:
   alexa:
   yandex:
   baidu:
-# Social accounts
-twitter:
-  username: darioS3C
-twitter_username: darioS3C
-github_username:
-facebook_username:
-facebook:
- app_id:
- publisher:
- admins:
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
   - jekyll-sitemap
