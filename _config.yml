@@ -1,46 +1,58 @@
-# Site settings
+# Bacis settings
 title: dario.site • Sécurité • Vie Privée
-# copyright text in footer
-copyright: dario.site • Sécurité • Vie Privée
-# website logos, images & icons
-image: /img/chklst.png
-logo: /img/chklst.png
 description: La sécurité est une exigence commerciale. La protection de la vie privée est un avantage concurrentiel. Protégez vos données et votre entreprise. dario.site
-url: https://dario.site
+author: _config.yml author
+# Language format language_TERRITORY. Default is en_US
+lang: fr_CA
+# website logos, images & icons  check / at begining
+logo: /img/chklst.png
+image: /img/header.jpg
 # urls
+url: https://dario.site
 english_url: https://dario.com
 french_url: https://dario.site
 baseurl: ''
 resources_url: 'resources'
-author:
-# Language format language_TERRITORY. Default is en_US
-lang: fr_CA
+
+# copyright text in footer
+copyright: dario.site • Sécurité • Vie Privée
+
 # email address
 email: contact@dario.site
 email_privacy:
+
 # contact telephone number
 telephone_number:
-# Social accounts
-github_username:
-twitter_username: darioS3C
-twitter:
-  username: darioS3C
-facebook_username:
-facebook:
- app_id:
- publisher:
- admins:
+
 # search tracking id for dario.site
 google_tracking_id: UA-98131817-3
+
 webmaster_verifications:
   google: B3IJ_LqW_yl1k4gLEYqap8F0_sHGRS_7thoEclC_3kg
   bing:
   alexa:
   yandex:
   baidu:
+
+# Social accounts
+twitter_username: darioS3C
+github_username:
+facebook_username:
+
+twitter:
+  username: darioS3C
+
+facebook:
+  app_id:
+  publisher:
+  admins:
+
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
+
+# gems
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+
 # Build settings
 markdown: kramdown
