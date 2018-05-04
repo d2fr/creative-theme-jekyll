@@ -19,7 +19,9 @@ copyright: dario.site • Sécurité • Vie Privée
 
 # email address
 email: contact@dario.site
-email_privacy:
+email_username: contact@dario.site
+# email address in privacy policy
+email_privacy: privacy@dario.site
 
 # contact telephone number
 telephone_number:
@@ -51,7 +53,6 @@ exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 
 # gems
 gems:
-  - jekyll-sitemap
   - jekyll-seo-tag
 
 # Build settings
