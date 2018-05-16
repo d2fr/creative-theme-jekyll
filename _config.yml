@@ -32,9 +32,7 @@ google_tracking_id: UA-98131817-3
 webmaster_verifications:
   google: B3IJ_LqW_yl1k4gLEYqap8F0_sHGRS_7thoEclC_3kg
   bing: AC24F3DF5CA3A5221FB7E01EF2D9AAC4
-  alexa:
-  yandex:
-  baidu:
+  yandex: 
 
 # Social accounts
 twitter_username: darioS3C

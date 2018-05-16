@@ -1,4 +1,5 @@
-User-agent: archive.org_bot
+Sitemap: https://dario.site/sitemap.xml
 User-agent: ia_archiver
 Disallow: /
-Sitemap: https://dario.site/sitemap.xml
+User-agent: *
+Disallow:
