@@ -18,10 +18,10 @@ resources_url: 'resources'
 copyright: dario.site • Sécurité • Vie Privée
 
 # email address
-email: contact@dario.site
-email_username: contact@dario.site
+email: contact@dario.com
+email_username: contact@dario.com
 # email address in privacy policy
-email_privacy: privacy@dario.site
+email_privacy: privacy@dario.com
 
 # contact telephone number
 telephone_number:
